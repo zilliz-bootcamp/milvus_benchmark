@@ -1,6 +1,5 @@
 # About Benchmark testing
 
-[English](README.md) | [中文版](../benchmark_test/README.md)
 
 The benchmark testing section includes the following content:
 
