@@ -3,8 +3,7 @@
 ## 1. Prepare test data and scripts
 
 The 100 million vectors used in this test are extracted from the dataset [SIFT1B](http://corpus-texmex.irisa.fr/).
-
-#### Hardware requirements
+The following hardware configurations were measured to successfully complete the experiment.
 
 | Component           | Minimum Config                |
 | ------------------ | -------------------------- |
