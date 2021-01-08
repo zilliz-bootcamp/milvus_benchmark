@@ -129,7 +129,7 @@ Query (CPU)
 
 The department randomly took out 500 vector queries from the vector set to be queried, and the average value of the 500 results was taken out for recall rate, which was tested for a total of three times. The 500 vectors taken out each time were not completely the same
 
-| accuracy | 第一次 | 第二次 | 第三次 |
+| accuracy | first | second | third |
 | -------- | ------ | ------ | ------ |
 | topk=1   | 97.0%  | 98.6%  | 97.6%  |
 | topk=10  | 98.1%  | 98.0%  | 97.7%  |
