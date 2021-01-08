@@ -2,6 +2,10 @@
 
 This topic displays the performance of different index types in Milvus 0.11.0 for reference purposes. The test data uses an open source dataset, sift1B, with 1,000 million 128-dimensional vectors.
 
+
+
+# Description
+
 The following table displays the terms used in this topic:
 
 | Term   | Description                                    |
@@ -20,11 +24,13 @@ Sift10m, SiFT100m, Segment_row_limit =2000000
 
 Refer to [https://medium.com/@milvusio/how-to-choose-an-index-in-milvus-4f3d15259212](https://medium.com/@milvusio/how-to-choose-an-index-in-milvus-4f3d15259212) to learn how to choose indexes.
 
-[SiFT1m test result](Performance_bench.md# sift1m): In this test, the first 1,000,000 vectors from the sift1B data set are selected.
+# Test results
 
-[SiFT10m test results](Performance_bench.md# sift10m): In this test, the first 10,000,000 vectors from the sift1B dataset are selected.
+[SiFT1m test result](Performance_bench.md): In this test, the first 1,000,000 vectors from the sift1B data set are selected.
 
-[Results of the SIFT100M test](Performance_bench.md# sift100m): In this test, the first 100,000,000 vectors from the sift1B dataset are selected.
+[SiFT10m test results](Performance_bench.md): In this test, the first 10,000,000 vectors from the sift1B dataset are selected.
+
+[Results of the SIFT100M test](Performance_bench.md): In this test, the first 100,000,000 vectors from the sift1B dataset are selected.
 
 In this test, the data was imported into Milvus in batches of 100,000, and the import time of 100,000 128-dimensional vectors was approximately  : 2S
 
@@ -40,7 +46,7 @@ In this test, the data was imported into Milvus in batches of 100,000, and the i
 
 The department randomly took out 500 vector queries from the vector set to be queried, and the average value of the 500 results was taken out for recall rate, which was tested for a total of three times. The 500 vectors taken out each time were not completely the same
 
-| accuracy | 第一次 | 第二次 | 第三次 |
+| accuracy | first | second | third |
 | -------- | ------ | ------ | ------ |
 | topk=1   | 98.2%  | 98.0%  | 98.8%  |
 | topk=10  | 98.9%  | 97.8%  | 97.5%  |
@@ -68,7 +74,7 @@ Query (CPU)
 
 The department randomly took out 500 vector queries from the vector set to be queried, and the average value of the 500 results was taken out for recall rate, which was tested for a total of three times. The 500 vectors taken out each time were not completely the same
 
-| accuracy  | 第一次 | 第二次 | 第三次 |
+| accuracy  | first | second | third |
 | --------- | ------ | ------ | ------ |
 | Topk =1   | 99.4%  | 98.8%  | 99.0%  |
 | Topk =10  | 98.7%  | 98.7%  | 98.4%  |
@@ -101,7 +107,7 @@ Query (CPU)
 
 The department randomly took out 500 vector queries from the vector set to be queried, and the average value of the 500 results was taken out for recall rate, which was tested for a total of three times. The 500 vectors taken out each time were not completely the same
 
-| accuracy | 第一次 | 第二次 | 第三次 |
+| accuracy | first | second | third |
 | -------- | ------ | ------ | ------ |
 | topk=1   | 98.0%  | 98.4%  | 98.6%  |
 | topk=10  | 98.2%  | 97.7%  | 98.2%  |
@@ -129,7 +135,7 @@ Query (CPU)
 
 The department randomly took out 500 vector queries from the vector set to be queried, and the average value of the 500 results was taken out for recall rate, which was tested for a total of three times. The 500 vectors taken out each time were not completely the same
 
-| accuracy | 第一次 | 第二次 | 第三次 |
+| accuracy | first | second | third |
 | -------- | ------ | ------ | ------ |
 | topk=1   | 97.0%  | 98.6%  | 97.6%  |
 | topk=10  | 98.1%  | 98.0%  | 97.7%  |
@@ -162,7 +168,7 @@ Query (CPU)
 
 The department randomly took out 500 vector queries from the vector set to be queried, and the average value of the 500 results was taken out for recall rate, which was tested for a total of three times. The 500 vectors taken out each time were not completely the same
 
-| accuracy | 第一次 | 第二次 | 第三次 |
+| accuracy | first | second | third |
 | -------- | ------ | ------ | ------ |
 | topk=1   | 97.2%  | 97.2%  | 97.6%  |
 | topk=10  | 97.3%  | 97.5%  | 97.4%  |
@@ -191,7 +197,7 @@ Query (CPU)
 
 The department randomly took out 500 vector queries from the vector set to be queried, and the average value of the 500 results was taken out for recall rate, which was tested for a total of three times. The 500 vectors taken out each time were not completely the same
 
-| accuracy | 第一次 | 第二次 | 第三次 |
+| accuracy | first | second | third |
 | -------- | ------ | ------ | ------ |
 | topk=1   | 98.2%  | 96.0%  | 98.2%  |
 | topk=10  | 97.4%  | 97.2%  | 97.3%  |
