@@ -20,6 +20,8 @@ Sift10m, SiFT100m, Segment_row_limit =2000000
 
 Refer to [https://medium.com/@milvusio/how-to-choose-an-index-in-milvus-4f3d15259212](https://medium.com/@milvusio/how-to-choose-an-index-in-milvus-4f3d15259212) to learn how to choose indexes.
 
+# Test results
+
 [SiFT1m test result](Performance_bench.md): In this test, the first 1,000,000 vectors from the sift1B data set are selected.
 
 [SiFT10m test results](Performance_bench.md): In this test, the first 10,000,000 vectors from the sift1B dataset are selected.
