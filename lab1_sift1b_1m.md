@@ -1,5 +1,7 @@
 # Lab Test 1: One Million Vector Search
 
+This project is used for the performance and recall test of milvus0.10.
+
 ## 1. Prepare test data and scripts
 
 The one million vectors used in this test are extracted from the dataset [SIFT1B](http://corpus-texmex.irisa.fr/).
@@ -23,9 +25,9 @@ The following configuration has been tested:
 
 Download the following data and scripts:
 
-- 1 million test data: https://pan.baidu.com/s/1XB0u4zDJoF-2E9T5HmoWJQ  Extraction code : zvs4 
-- Query data: https://pan.baidu.com/s/1LSB167UzUtm1H5Fk91bQfA   Extraction code : imnw 
-- Ground truth: https://pan.baidu.com/s/1OlFKFoi3zVTr8DZQMoGkJQ Extraction code : 49lg
+- 1 million test data: https://pan.baidu.com/s/1TSjGaAlQOQm3PpJfZ6dtPQ  Extraction code : 2x5o 
+- Query data: https://pan.baidu.com/s/158QrpC71I4jhEwNG6rD-kQ   Extraction code : 0j3c 
+- Ground truth: https://pan.baidu.com/s/1pyjNAUdXvxcJjvTmdzQgBw  Extraction code : 1776
 - Test scripts: [/bootcamp/benchmark_test/scripts/](/benchmark_test/scripts/)
 
 Create a folder named `milvus_sift1m` and move all downloaded files to the folder:
@@ -77,11 +79,11 @@ Vectors are then inserted into a table named `ann_1m_sq8h`, with the index_type 
 To show the available tables and number of vectors in each table, use the following command:
 
 ```bash
-#查看库中有哪些表
+#List collections in database
 $ python3 main.py --show
-#查看表ann_1m_sq8h的行数
+#Get the rows of the collection ann_1m_sq8h
 $ python3 main.py --collection ann_1m_sq8 --rows
-#查看表ann_1m_sq8h的索引类型
+#View the index type of collection ann_1m_sq8h
 $ python3 main.py --collection ann_1m_sq8 --describe_index
 ```
 
