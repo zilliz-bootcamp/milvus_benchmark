@@ -8,8 +8,8 @@ The following table displays the terms used in this topic:
 | ---------- | ---------------------------------------- |
 | nq         | Number of vectors to query. The value is defined during search.    |
 | topk       | The most similar topk search results.  |
-| total_time | Total time for a batch search.                 |
-| avg_time   | Average search time per vector.       |
+| accuracy   | Recall rate of query results.                 |
+| time       | Average search time per vector.       |
 | nprobe     | Number of buckets to search during a query. The value is defined during search.  |
 
 Performance is correlated with nprobe. The greater the value of nprobe, the lower the performance, but the higher the accuracy. You can set nprobe per specific scenarios. In this topic, nprobe is set to 32.
