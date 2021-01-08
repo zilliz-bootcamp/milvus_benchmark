@@ -14,7 +14,7 @@ The following hardware configurations were measured to successfully complete the
 | Memory        | 755GB DDR4    |
 | Hard Disk | 1.9T              |
 
-Download the following data and scripts, and save them to a file named **milvlus_sift100m**. 
+Download the following data and scripts, and save them to a file named **milvus_sift100m**. 
 - [100 million vector dataset](https://pan.baidu.com/s/1N5jGKHYTGchye3qR31aNnA)
 
   Download the dataset and extract the data to **milvus_sift100M/bvecs_data/**. When the extraction is completed, there will be 1000 .npy files, each containing 100,000 vectors, in file **bvecs_data**.
