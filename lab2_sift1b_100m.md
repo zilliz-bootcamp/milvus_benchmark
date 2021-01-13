@@ -10,7 +10,7 @@ The 100 million vectors used in this test are extracted from the dataset [SIFT1B
 | ------------------ | -------------------------- |
 | OS            | Ubuntu LTS 18.04 |
 | CPU           | Intel(R) Xeon(R) Platinum 8163 CP |
-| GPU           | Nvidia GeForce GTX 1060, 6GB GDDR5 |
+| GPU           | GeForce RTX 2080 Ti |
 | GPU Driver    | CUDA 10.2, Driver 440.100 |
 | Memory        | 755GB DDR4    |
 | Hard Disk | 1.9T              |
