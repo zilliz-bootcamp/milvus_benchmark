@@ -47,7 +47,7 @@ Configuration file: **/home/$USER/milvus/conf/server_config.yaml**
 | gpu_search_threshold | 1001              |
 | search_devices       | -gpu0             |
 
-Refer to [Milvus Configuration](https://www.milvus.io/docs/v0.11.0/milvus_config.md) for more information.
+Refer to [Milvus Configuration](https://www.milvus.io/docs/milvus_config.md) for more information.
 
 Use default values for other parameters. After setting parameter values, restart Milvus Docker to apply all changes.
 
