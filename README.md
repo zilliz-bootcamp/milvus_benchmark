@@ -1,3 +1,5 @@
+:exclamation::exclamation: **This repo will no longer be maintained, please visit https://github.com/milvus-io/bootcamp** :exclamation: :exclamation:
+
 # About Benchmark testing
 
 [English](README.md) | [中文版](../benchmark_test/README.md)
